@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: Montserrat, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(43, 42, 43);
+  padding: 0px 24px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.logo {
+  cursor: pointer;
+  width: 10rem;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0px 12px;
+  position: relative;
+}
+
+.badge {
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+  background: salmon;
+  font-size: 8px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  text-align: center;
+}
+
+header ul li a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+header ul li a:hover {
+  color: salmon;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 6px 12px;
+  border-radius: 1rem;
+  background: #42ac48;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background: salmon;
+}
+
+section.main {
+  position: relative;
+  top: 65px;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background: url('https://picsum.photos/id/1021/1500/500');
+  padding: 7rem 5rem;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 90%, 0% 100%);
+}
+
+.mb3 {
+  margin-bottom: 1rem;
+}
+
+.box1 {
+  flex: 1;
+}
+
+.box2 {
+  text-align: center;
+  flex: 1;
+}
+
+.main h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button.my-button {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background: rgb(255, 218, 95);
+  cursor: pointer;
+}
+
+section .solutions {
+  margin: 12px 36px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+section .solutions h1 {
+  text-align: center;
+  margin: 24px 12px;
+}
+
+section .solutions ul li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+section .solutions img {
+  border-radius: 4px;
+  width: 10rem;
+}
+
+.section-title {
+  text-align: center;
+  margin: 24px 12px;
+  font-size: 3rem;
+}
+
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tc {
+  text-align: center;
+}
+
+.mt3 {
+  margin-top: 1rem;
+}
+
+.mt5 {
+  margin-top: 4rem;
+}
+
+.h5 {
+  height: 25rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
+  background-color: rgb(43, 42, 43);
+}
+
+footer.footer p {
+  color: white;
+}
+
+.container {
+  max-width: 760px;
+}
+
+.my-hr {
+  border: 1px solid salmon;
+  width: 100px;
+}
+
+.my-table {
+  font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.my-table td,
+.my-table th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.my-table tr {
+  cursor: pointer;
+}
+
+.my-table tr:nth-child(4) {
+  background-color: rgb(245, 245, 245);
+}
+
+.my-table tr:hover {
+  background-color: #ddd;
+}
+
+.my-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: salmon;
+  color: white;
+}
